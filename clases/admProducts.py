@@ -20,4 +20,8 @@ class admProduct:
         self.__L3 = l3
         self.__category = category
 
-        
+    def getCode(self):
+        return int(self.__code)
+
+    def getStock(self):
+        return int(self.__stock)
