@@ -11,6 +11,16 @@ tnList = []
 
 
 if __name__ == '__main__':
-    print("Iniciando proceso")
+    
+    print("************************** Iniciando proceso **************************")
+    
     admList = readADM('admProduct.csv', admList)
     tnList = readTN('tnProducts.csv', tnList)
+
+    """
+    EN ESTA PARTE VOY A PROCESAR LAS DOS LISTAS Y DE AHI 
+    COMPARAR LOS PRODUCTOS POR CODIGO DE ARTICULO
+    """
+
+    compareAndGetProducts(admList, tnList)
+    
